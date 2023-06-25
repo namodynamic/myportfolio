@@ -25,7 +25,7 @@
     }
 
     &__text {
-      text-align: left;
+      text-align: start;
 
       @include respond(phone) {
         margin-bottom: 2.5rem !important;
@@ -50,7 +50,7 @@
     }
 
     &__image {
-      width: 90%;
+      width: 100%;
       margin: 0 auto;
 
       @include respond(tab-land) {
